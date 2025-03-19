@@ -7,7 +7,7 @@ import Image from "next/image";
 interface ServiceProps {
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon:  React.ReactNode;
 }
 
 const serviceList: ServiceProps[] = [
