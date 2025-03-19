@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from '@/contexts/AuthContext';
 import { AlertProvider } from '@/contexts/Alert';
-import { ThemeProvider } from "@/app/components/theme-provider.tsx";
+import { ThemeProvider } from "@/app/components/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cine Actu",
-  description: "Cine Actu",
+  description: "Keep Note",
   // Ajouter un favicon ici
   icons: {
     icon: "/logo.png", 
